@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+    background: #add8e6;
+    border-radius: 5px;
+    font-weight: bold;
+}
